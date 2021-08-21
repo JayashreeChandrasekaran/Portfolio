@@ -1,0 +1,103 @@
+*{
+  font-family: 'Allison', cursive;
+  margin:0;
+  padding:0;
+  cursor:pointer;
+}
+ .jumbotron h1{
+  font-size:100px;
+}
+.jumbotron{
+  background-color:white;
+}
+.iccon{
+  margin-top:-60px;
+}
+@media only screen and (min-device-width: 320px){
+  .jumbotron{
+  overflow:hidden;
+}
+}
+.profile{
+  font-size:55px;
+  margin-top:-15px;
+}
+#hey{
+font-family: 'Cookie', cursive;
+font-size:4em;
+margin-top:0px;
+
+}
+#self{
+font-family: 'Handlee', cursive;
+font-size:35px;
+}
+#self1{
+  font-family: 'Handlee', cursive;
+  font-size:35px;
+}
+/*  @media only screen and (max-device-width: 411px){
+  #self1{
+    padding-left:20px;
+    padding-right:20px;
+  }
+}*/
+@media only screen and (max-device-width: 320px){
+  #name{
+    font-size:8px;
+  }
+  #hey{
+    font-size:3em;
+    margin-top:-65px;
+  }
+}
+.box{
+  height:310px;
+  width:100%;
+  border:3px solid grey;
+  margin-top:50px;
+  margin-bottom:25px;
+}
+.contact{
+  font-size:4em;
+}
+.social{
+  font-size:35px;
+  color:black;
+  font-family: 'Cookie', cursive;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  text-decoration:none;
+  color:black;
+}
+@media only screen and (max-device-width: 834px){
+  .box{
+    height:100%;
+    display: inline-block
+
+  }
+}
+.span{
+color:white;
+}
+nav{
+    top:-9em;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.nav-item{
+font-size:2em;
+font-family: 'Cookie', cursive;
+}
+@media only screen and (max-device-width:570px){
+nav{
+  overflow-x: hidden;
+}
+}
